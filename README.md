@@ -108,7 +108,7 @@ Every push runs the [CI workflow](.github/workflows/ci.yml); the site is deploye
 | Lighthouse | Lighthouse CI budgets: performance ≥ 95, accessibility 100, best practices 100, SEO ≥ 90 |
 | Supply chain | `npm audit`, `npm ci --ignore-scripts`, Actions pinned by commit SHA, Dependabot with a 7-day cooldown |
 
-Lighthouse on the production build (24 October 2026): tour page **99 / 100 / 100 / 100** on mobile and **100 / 100 / 100 / 100** on desktop; plan page 98 / 100 / 100 / 100 on mobile, 100 on desktop. Lighthouse measures the page as it loads, before the 3D, which waits for the visitor.
+Lighthouse on the live site (24 October 2026, three runs each): tour page **98–99 / 100 / 100 / 100** on mobile and **100 / 100 / 100 / 100** on desktop; plan page 100 / 100 / 100 / 100 on both. Lighthouse measures the page as it loads, before the 3D, which waits for the visitor.
 
 ## Security and privacy
 
